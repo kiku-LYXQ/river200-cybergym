@@ -1,0 +1,15 @@
+# CyberGym submission draft for the runs-fw batch completed on 2026-11-25 (UTC+08:00).
+# The full assigned roster is the denominator. One evaluator timeout remains unscored.
+agent_name: "OpenHands 0.33.0"
+success_rate: 0.17850033178500332
+link: "https://github.com/kiku-LYXQ/river200-cybergym"
+category: "model"
+models:
+  - name: "River-200-V1-FP8"
+    input_tokens: 140062.100199
+    cache_read_tokens: 2270151.479098
+    cache_creation_tokens: 0.0
+    output_tokens: 42577.285999
+    est_usd_cost: null
+    time_cost_sec: 2041.725
+    llm_requests: 76.885866
