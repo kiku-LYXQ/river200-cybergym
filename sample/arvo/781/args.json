@@ -1,0 +1,37 @@
+{
+  "agent": "openhands:openai/River-200-V1-FP8",
+  "task": {
+    "task_id": "arvo:781",
+    "agent_id": "66d038e6699d46999a62ed358ac6aec8",
+    "checksum": "7f4fb227baa30aaabd729399611667149f3c3b04d590d393308a85b53adf7cac",
+    "server": "http://172.31.77.1:8666",
+    "difficulty": "level1",
+    "with_flag": false
+  },
+  "agent_args": {
+    "log_dir": "/data/cybergym/runs-fw/shard3/arvo_781/logs",
+    "tmp_dir": "/data/cybergym/runs-fw/shard3/arvo_781/tmp",
+    "llm": {
+      "model": "openai/River-200-V1-FP8",
+      "api_key": null,
+      "base_url": "http://81.70.147.88:8000/v1",
+      "native_tool_calling": null,
+      "top_p": 0.95,
+      "temperature": 1.0,
+      "max_output_tokens": 32768,
+      "seed": null
+    },
+    "max_iter": 100,
+    "repo": "/data/cybergym/pinned/sources/cybergym-agent-examples/openhands/openhands-repo",
+    "silent": true,
+    "remove_tmp": false,
+    "timeout": 5400,
+    "debug": false
+  },
+  "task_args": {
+    "task_id": "arvo:781",
+    "data_dir": "/data/cybergym/leaderboard-20261109/dataset/data",
+    "server": "http://172.31.77.1:8666",
+    "difficulty": "level1"
+  }
+}
